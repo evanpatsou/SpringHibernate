@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/JavaAnnotationsDependencyInjection/FieldInjection/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/InjectingFromFile/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationsDependencyInjection/MethodInjection/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationBeanScope/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/BeanLifecycle/beanLifeCycle-applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/SetterInjection/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationsDependencyInjection/ConstructorInjection/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/DependencyInjection/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationsDependencyInjection/SetterInjection/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationsIoC/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/BeanScopes/beanScope-applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/InjectingLiteralValues/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationsDependencyInjection/MultipleImplementationsInterface/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/DefaultComponentNames/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/JavaAnnotationBeanLifecycle/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/InversionOfControl/SpringIoC/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/SpringConfigurationNoXML/SportConfig.java</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
+  </component>
+</module>

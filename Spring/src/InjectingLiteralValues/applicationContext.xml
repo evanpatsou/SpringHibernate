@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define your beans here -->
+
+    <!-- Define the dependency  -->
+    <bean
+        id="myFortuneService"
+        class="InjectingLiteralValues.HappyFortuneService">
+    </bean>
+
+    <bean
+        id="myCoach"
+        class="InjectingLiteralValues.TrackCoach"
+    >
+        <!-- set up constructor injection -->
+        <constructor-arg ref="myFortuneService"/>
+    </bean>
+
+    <bean
+            id="myCricketCoach"
+            class="InjectingLiteralValues.CricketCoach" >
+        <!-- set up setter injection -->
+        <property name="fortuneService" ref="myFortuneService"/>
+
+        <!-- inject literal values -->
+        <property name="emailAddress" value="test@test.com"/>
+        <property name="team" value="Test team"/>
+    </bean>
+</beans>
